@@ -69,4 +69,20 @@ for item in summary:
 
 print(
     "Connected:",
-    runtime
+    runtime["online"]
+)
+
+print(
+    "Nonce:",
+    transaction["nonce"]
+)
+
+print(
+    "Bytes:",
+    len(raw_hex)
+)
+
+print(
+    "Contract request signed"
+)
+```
